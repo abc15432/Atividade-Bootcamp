@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    /* Gradiente para um visual moderno */
+    background: linear-gradient(to right, #4facfe, #00f2fe); 
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.search-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+#city-input {
+    padding: 10px;
+    flex-grow: 1;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 1em;
+}
+
+#search-btn {
+    padding: 10px 15px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#search-btn:hover {
+    background-color: #ff4757;
+}
+
+.weather-results {
+    margin-top: 20px;
+}
+
+.temp {
+    font-size: 3.5em;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.initial-message, .error-message {
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+.error-message {
+    color: #ff4757;
+}

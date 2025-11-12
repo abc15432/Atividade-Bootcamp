@@ -1,0 +1,22 @@
+{
+    "name": "PWA Clima CEUB",
+    "short_name": "ClimaCEUB",
+    "description": "Previsão do tempo para o projeto PWA.",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#00f2fe",
+    "theme_color": "#4facfe",
+    "icons": [
+      {
+        "src": "./images/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "./images/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
